@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+</head>
+<body>
+
+
+
+  <div class="nav shadow" id="nav">
+
+    <div class="header">
+    
+      <div  alt="" class="logo"></div>
+
+      <div  alt="" class="menu-button" onclick="toggleNav()"></div>
+        
+    </div>
+
+    <div class="links">
+      <div class="link">FEATURES</div>
+      <div class="link">PRICING</div>
+      <div class="link">CONTACT</div>
+      <div class="button red-button login-button">LOGIN</div>
+    </div>
+
+  </div>
+
+
+  <div class="main">
+  
+    <div class="hero">
+    
+      <div class="decor"></div>
+      <img src="images/illustration-hero.svg" alt="" class="floating-img">
+      
+      <div class="hero-content">
+        <div class="title">A simple Bookmark Manager</div>
+        <div class="subtitle">A clean and simple interface to organize your favourite website. Open a new browser tab and see your site load instatnty. Tryy it for free.</div>
+        
+        <div class="buttons">
+          <div class="button blue-button shadow">Get it on Chrome</div>
+          <div class="button gray-button shadow">Get it on Firefox</div>
+        </div>
+      
+      </div>
+  
+    </div>
+  
+  
+    <div class="features">
+    
+      <div class="title-and-subtitle">
+    
+        <div class="title">Features</div>
+    
+        <div class="subtitle">Our aim is to make it quick and eas for oyu to access your facourite websites. Your bookmarks sync between your devices so you can access them on the go</div>
+      
+      </div>
+      <div class="tabs">
+        <div class="tab-container tab-selected">
+          <div class="tab ">
+            <div class="tab-title ">Simple Bookmarking</div>
+          </div>
+        </div>
+     
+
+        <div class="tab-container">
+          <div class="tab ">
+            <div class="tab-title ">Speedy Searching</div>
+          </div>
+        </div>
+      
+
+      
+        <div class="tab-container">
+          <div class="tab ">
+            <div class="tab-title ">Easy Sharing</div>
+          </div>
+        </div>
+      
+     
+      </div>
+
+      
+      <div class="feature">
+        
+        <div class="decor decor-left"></div>
+
+        <img src="images/illustration-features-tab-1.svg" alt="" class="floating-img">
+
+        <div class="title-and-subtitle">
+        
+          <div class="title">Bookmark in one click</div>
+
+          <div class="subtitle">Organize your bookmarks however you like Our simple drag-and-drop interface gives you complete ontrol over how you manage your favourite sites</div>
+
+          <div class="buttons">
+            <div class="button blue-button">More Info</div>
+          </div>
+
+        </div>
+          
+      </div>
+
+    
+    </div>
+
+
+
+    <div class="extentions">
+   
+      <div class="title-and-subtitle">
+        <div class="title">Download the extention</div>
+        <div class="subtitle">We've got more browsers in the pipline. please do let us know if you've got a favourite you'd like us to prioratize</div>
+      </div>
+   
+      <div class="cards">
+        <div class="card">
+          <img src="images/logo-chrome.svg" alt="" class="img">
+          <div class="title-and-subtitle">
+            <div class="title">Add to Chrome</div>
+            <div class="subtitle">Minimum version 62</div>
+          </div>
+          <div class="dotted"></div>
+          <div class="buttons">
+            <div class="button blue-button">Add & Install Extention </div>
+          </div>
+        </div>
+  
+        <div class="card">
+          <img src="images/logo-firefox.svg" alt="" class="img">
+          <div class="title-and-subtitle">
+            <div class="title">Add to Firefox</div>
+            <div class="subtitle">Minimum version 55</div>
+          </div>
+          <div class="dotted"></div>
+          <div class="buttons">
+            <div class="button blue-button">Add & Install Extention </div>
+          </div>
+        </div>
+  
+        <div class="card">
+          <img src="images/logo-opera.svg" alt="" class="img">
+          <div class="title-and-subtitle">
+            <div class="title">Add to Opera</div>
+            <div class="subtitle">Minimum version 46</div>
+          </div>
+          <div class="dotted"></div>
+          <div class="buttons">
+            <div class="button blue-button">Add & Install Extention </div>
+          </div>
+        </div>
+  
+      </div>
+
+
+    </div>
+
+
+    <div class="questions">
+      
+      <div class="title-and-subtitle">
+        <div class="title">Frequently Asked Questions</div>
+        <div class="subtitle">Here are some of our FAQs, if you have any oher questions you'd like answered please feel free to email us</div>
+      </div>
+      
+      <div class="question-container"  onclick="question(this)">
+        
+        <div class="question">
+          <div class="question-text">what is the Bookmark</div>
+          
+          <div class="arrow" ></div>
+          
+        </div>
+
+        <div class="answer" >
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+        </div>
+
+      </div>  
+
+
+      <div class="question-container"  onclick="question(this)">
+        
+        <div class="question">
+          <div class="question-text">How can i request a new browser</div>
+          
+          <div class="arrow" ></div>
+          
+        </div>
+
+        <div class="answer" >
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+        </div>
+
+      </div>  
+
+      
+
+      <div class="question-container"  onclick="question(this)">
+        
+        <div class="question">
+          <div class="question-text">is there a mobile app ?</div>
+          
+          <div class="arrow" ></div>
+          
+        </div>
+
+        <div class="answer" >
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+        </div>
+
+      </div>  
+
+      <div class="question-container"  onclick="question(this)">
+        
+        <div class="question">
+          <div class="question-text">What about other Chromium browsers</div>
+          
+          <div class="arrow" ></div>
+          
+        </div>
+
+        <div class="answer" >
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+          this is the answer this is the answer this is the answer this is the answer
+        </div>
+
+      </div>  
+
+      <div class="buttons">
+        <div class="button blue-button">More Info</div>
+      </div>
+    
+    
+    </div>
+
+
+
+    <div class="up-to-date">
+      <div class="number">35,000+ ALREADY JOINED</div>
+      <div class="big-title">Stay up-to-date with what <br> we-re doing</div>
+      <div class="buttons">
+        <input type="text" class="button email" placeholder="example@gmail.com">
+        <div class="button red-button">Contact Us</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    
+    <img src="images/logo-bookmark-white.svg" alt="" class="logo">
+    
+    <div class="link">Features</div>
+    <div class="link">Pricing</div>
+    <div class="link">Contact</div>
+    
+    <div class="icons">
+      
+      <img src="images/icon-facebook.svg" alt="" class="icon">
+      <img src="images/icon-twitter.svg" alt="" class="icon">
+      
+    </div>
+  
+  </footer>
+
+
+
+
+</body>
+
+<script>
+  
+  document.addEventListener('scroll' , (event)=>{
+    var top  = window.pageYOffset || document.documentElement.scrollTo;
+    if( top > 200 ){
+      addShadow();
+    }
+    else{
+      removeShadow();
+    }
+  });
+
+  function addShadow(){
+    var nav = document.getElementById("nav");
+    nav.classList.add("shadow");
+  }
+  function removeShadow(){
+    var nav = document.getElementById("nav");
+    nav.classList.remove("shadow");
+  }
+  
+  function question(element){
+    
+    var answer = element.querySelector(".answer");
+    var arrow = element.querySelector(".arrow");
+    
+    arrow.classList.toggle("arrow-hide");
+    answer.classList.toggle("show");
+    
+  }
+  function toggleNav(){
+    var nav = document.getElementById("nav");
+    nav.classList.toggle("nav-show");
+  }
+</script>
+</html>
